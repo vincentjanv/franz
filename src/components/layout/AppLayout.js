@@ -194,7 +194,6 @@ class AppLayout extends Component {
                     </button>
                   </InfoBar>
                 )}
-                {isDelayAppScreenVisible && (<DelayApp />)}
                 <BasicAuth />
                 <ShareFranz />
                 {isAnnouncementVisible && (<AnnouncementScreen />)}
